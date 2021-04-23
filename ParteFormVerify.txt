@@ -1,0 +1,71 @@
+ <!-- conteudo chama modal -->
+        <div class="modal fade" id="CreateAccountModal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">Create Account</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                    <form method="POST" action="#" onsubmit="return checkall();">
+                        <input type="text" name="username" id="UserName" onkeyup="checkname();">
+                        <span id="name_status"></span>
+                        <br>
+                        <!-- <input type="submit" name="submit_form" value="Submit"> -->
+                    </form>
+
+                    <!-- <form class="form-signin" action="Token.php" method="post"> -->
+
+                        <!-- <div class="form-label-group  label-float">   
+                            <input type="text" name="UserName" class="form-control" id="UserName" placeholder="UserName" minlength="3" pattern="[a-zA-Z]+$" onkeyup="checkname();" required>      
+                            <span id="name_status"></span>         
+                            <div class="invalid-feedback">nameToken inválido!</div>
+                        </div> -->
+
+                        <!-- <div class="form-label-group  label-float">   
+                            <input type="text" name="nameToken" class="form-control" id="nameToken" placeholder="nameToken" minlength="3" pattern="[a-zA-Z]+$" required>               
+                            <div class="invalid-feedback">nameToken inválido!</div>
+                        </div>
+
+                        <div class="form-label-group label-float">
+                            <input type="password" name="secretToken" class="form-control" id="secretToken" minlength="3" pattern="[a-zA-Z0-9]+$" placeholder="secretToken">
+                            <input type="checkbox" onclick="show()"> Mostrar senha
+                            <div class="invalid-feedback">SecretToken inválido!</div>
+                        </div>
+
+                        <div class="form-label-group">
+                            <input type="text" name="subjectToken" class="form-control" id="validationCustom02" placeholder="subjectToken" minlength="3" pattern="[a-zA-Z]+$" required>
+                            <div class="invalid-feedback">subjectToken inválido!</div>
+                        </div>
+
+                        <div class="form-label-group">
+                            <input type="email" name="emailToken" class="form-control" id="validationCustom02" placeholder="emailToken" minlength="3" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                            <div class="invalid-feedback">EmailToken inválido!</div>
+                        </div>
+
+                        <div class="form-label-group">
+                             <select name="expireToken" class="custom-select" id="validationCustom04" required>
+                                <option option value="">Tempo de expiração</option>
+                                <option value="02">dois minutos</option>
+                                <option value="10">dez minutos</option>
+                                <option value="30">trinta minutos</option>
+                                <option value="60">sessenta minutos</option>
+                            </select>
+                            <div class="invalid-feedback">Informe uma cidade válida.</div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button class="btn btn-primary btn-block" type="submit">Enviar</button>
+                        </div> -->
+                      
+                    <!-- </form> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- conteudo chama modal -->
